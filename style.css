@@ -661,7 +661,7 @@ dd{
 }
 
 .features-container{
-  background: url(./images/fonts-bg.png) 0px -445.072px / 100% 240.712% no-repeat; 
+  background: url('./images/fonts-bg.png') 0px -445.072px / 100% 240.712% no-repeat; 
   column-gap: 42px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 253px);
