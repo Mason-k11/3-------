@@ -540,7 +540,6 @@ main{
   display: flex;
   flex-direction: column;
   gap: 96px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -675,6 +674,7 @@ dd{
   line-height: 1.60;
   margin-top: 6px;
 }
+
 .social-proof-list{
   display: flex;
   align-items: center;
@@ -711,6 +711,7 @@ dd{
   display: flex;
   align-items: flex-start;
   column-gap: 64px;
+  padding-inline: 10px;
 
 }
 .newletter-control{
@@ -790,6 +791,19 @@ main{
 .social-proof-list{
   padding-inline: 25px;
 }
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+gap:16px;
+}
+.newletter-control{
+ padding: 10px 35px;
+ text-align: center;
+  
+}
+
 }
 @media (max-width: 600px) {
   .company-item:nth-child(n+3) {
